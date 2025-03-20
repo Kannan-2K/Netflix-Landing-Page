@@ -4,7 +4,6 @@
   font-weight: bold;
   display: flex;
   justify-content: center;
-  margin-top: 300px;
 }
 .sub-heading {
   color: white;
@@ -12,7 +11,7 @@
   font-weight: lighter;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+
 }
 .sub-heading1 {
   color: white;
@@ -20,37 +19,40 @@
   font-weight: lighter;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  
 }
 .email {
-  width: 393px;
-  height: 58px;
-  padding: 3px;
+  width: 230px;
+  height: 80px;
+  width: 100%;
+  padding: 12px;
   font-size: 24px;
   color: white;
   background-color: black;
   border: 2px;
   border-color: white;
 }
-.button1{
-    border: white,2px,solid;
-    width: 500px;
-    height: fit-content;
-   margin-left: 35%;
-   margin-top: 70px;
-   padding: 8px;
-   display: inline-block;
-}
-.button2{
-    width: 230px;
-    height: 80px;
-    background-color: #E50815;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    display: inline;
-    margin-left: 30px;
-    margin-top: 35px;
 
-    
+.button1 {
+  border: white, 2px, solid;
+  width: 500px;
+  height: fit-content;
+  flex-direction: column;
+  display:flex;
+}
+.button2 {
+  width: 230px;
+  height: 80px;
+  background-color: #e50815;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.buttons{
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
